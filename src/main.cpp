@@ -27,7 +27,7 @@ int main() {
     cin.tie(NULL);
 
     // courses.txt 파일을 읽기 모드로 열기
-    ifstream fin("courses.txt");
+    ifstream fin("../data/courses.txt");
     if(!fin.is_open()) { // 파일 열기에 실패한 경우
         cerr << "courses.txt 파일을 열 수 없습니다.\n"; // 오류 메시지 출력
         return 1; // 프로그램 종료
